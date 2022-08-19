@@ -40,7 +40,7 @@ params:
     title: 'About Me'
     image: /images/GopherCinefilo.png
     content: |-
-      I'm self-taught software web developer that works mostly in the backend but I'm capable of working on the frontend when its needed.
+      I'm self-taught software web developer from Argentina, that works mostly in the backend but I'm capable of working on the frontend when its needed.
       
     skills:
       enable: true
