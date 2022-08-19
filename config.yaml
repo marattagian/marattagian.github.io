@@ -1,0 +1,155 @@
+baseURL: 'https://marattagian.github.io'
+languageCode: 'en-us'  
+title: "Gian's Site"
+theme: 'hugo-profile'
+
+params:
+  favicon: /images/favicon.ico
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: 'dark'
+  color:
+    primaryColor: "#aa55ff"
+    darkmode:
+      textColor: "#F5F5F5"
+      secondaryTextColor: "#F5F5F5"
+      backgroundColor: "#313552"
+      primaryColor: "#F1E0AC"
+      secondaryColor: "#30475E"
+  hero:
+    enable: true
+    intro: 'Hi, my name is'
+    title: 'Gian'
+    content: 'A self-taught web dev passionate about learning new things and build interesting stuff'
+    image: /images/gian-profile.png
+    button:
+      enable: true
+      name: 'Resume'
+      url: /CV-backend-MarattaGianni.pdf
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/marattagian
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/marattagian
+      # customIcons:
+      #   - icon: 
+      #     url:
+  about:          
+    enable: true
+    title: 'About Me'
+    image: /images/GopherCinefilo.png
+    content: |-
+      I'm self-taught software web developer that works mostly in the backend but I'm capable of working on the frontend when its needed.
+      
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - 'NodeJS'
+        - 'Go'
+        - 'Express'
+        - 'Docker'
+        - 'Sequelize'
+        - 'Git'
+        - 'SQL'
+        - 'MongoDB'
+
+  experience:
+    enable: true
+    items:
+      - job: "Node Backend Developer"
+        company: "Alkemy Acceleration"
+        companyUrl: "https://alkemy.org"
+        date: "July 2022 - present"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: https://github.com/alkemyTech/OT245-Server/
+        content: |
+          I am currently working as one of the backend developers at the Node team where we use Express, Sequelize and MySQL. The project is about an NGO called "somos mas" and we fit to their requirements. We manage development with Jira software, using agile methodologies like Scrum and with Git Flow we handle the code.
+          
+  education:          
+    enable: true
+    items:
+      - title: 'Fullstack Development'
+        school:
+          name: 'Fullstack Open'
+          url: 'https://fullstackopen.com/en'
+        date: '2020'
+        content: |-
+          Some content for Fullstack Development
+      - title: 'Curso Profesional de Go'
+        school:
+          name: 'Codigofacilito'
+          url: /certificado-go.pdf
+        date: '2022'
+        content: |-
+          Some content for go professional course
+  projects:
+    enable: true
+    items:
+      - title: Alkemy Challenge
+        content: An movies REST API
+        image: /images/projects/alkemy-challenge.png
+        featured:
+          name: Repo
+          link: https://github.com/marattagian/challenge-backend-node
+        links:
+          - icon: fab fa-github
+            url: https://github.com/marattagian/challenge-backend-node
+      - title: React To Do
+        content: A todo app buil with react and chakra
+        image: /images/projects/react-todo.png
+        featured:
+          name: Demo
+          link: https://react-chakra-todo.vercel.app/
+        links:
+          - icon: fab fa-github
+            url: https://github.com/marattagian/todo-app
+      - title: Quiz Game
+        content: A simple CLI quiz game made with node
+        image: /images/projects/gian-game.png
+        featured:
+          name: NPM Package
+          link: https://www.npmjs.com/package/gian-game
+        links:
+          - icon: fab fa-github
+            url: https://github.com/marattagian/node-cli-game
+      - title: Web Service with Go
+        content: A REST(ish) web service made with Go and Gin
+        image: /images/projects/gin-gonic-service.png
+        featured:
+          name: Repo
+          link: https://github.com/marattagian/challenge-backend-node
+        links:
+          - icon: fab fa-github
+            url: https://github.com/marattagian/gin-service
+      - title: Node GraphQL API
+        content: A GraphQL API built with Node and Apollo Server
+        image: /images/projects/apollo-mongo.png
+        featured:
+          name: Repo
+          link: https://github.com/marattagian/apollo-mongo-node
+        links:
+          - icon: fab fa-github
+            url: https://github.com/marattagian/gin-service
+  achievements:
+    enable: true
+    items:
+      - title: NPM Package
+        content: I managed to publish a simple package that can be used with npx
+        url: https://www.npmjs.com/package/gian-game
+      - title: English C2
+        content: EFSET Approval Certificate
+        url: /EFSET-Certificate-GianniMaratta.pdf
+  contact:
+    enable: true
+    content: My inbox is open if you're interested on contact me.
+    email: marattagian15@gmail.com
+    btnName: Mail Me
+  footer:
+    recentPosts: false
+    socialNetworks:
+      linkedin: https://linkedin.com/in/marattagian
+      github: https://github.com/marattagian
