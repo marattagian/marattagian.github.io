@@ -20,7 +20,7 @@ params:
     enable: true
     intro: 'Hi, my name is'
     title: 'Gian'
-    content: 'A self-taught web dev passionate about learning new things and build interesting stuff'
+    content: 'A self-taught developer passionate about learning new things and build stuff for the web'
     image: /images/gian-profile.png
     button:
       enable: true
@@ -40,7 +40,7 @@ params:
     title: 'About Me'
     image: /images/GopherCinefilo.png
     content: |-
-      I'm self-taught software web developer from Argentina, that works mostly in the backend but I'm capable of working on the frontend when its needed.
+      I'm a self-taught software web developer from Argentina, that works mostly in the backend, but I'm capable of working on the frontend when it's needed.
       
     skills:
       enable: true
@@ -74,18 +74,18 @@ params:
     items:
       - title: 'Fullstack Development'
         school:
-          name: 'Fullstack Open'
+          name: 'Full Stack Open'
           url: 'https://fullstackopen.com/en'
         date: '2020'
         content: |-
-          Some content for Fullstack Development
+          In this course I learned the syntax of the language along with its philosophy. In addition, how packages and modules work. Without leaving aside the use of the great capacity of the Standard Library.
       - title: 'Curso Profesional de Go'
         school:
           name: 'Codigofacilito'
           url: /certificado-go.pdf
         date: '2022'
         content: |-
-          Some content for go professional course
+          With Full stack open, I learned the basis of NodeJS and building REST API's with it, alongside express. I also learned things like CORS, server React builds, using MongoDB and a little bit of Typescript. Technologies where I would deepen later on my own.
   projects:
     enable: true
     items:
@@ -145,7 +145,7 @@ params:
         url: /EFSET-Certificate-GianniMaratta.pdf
   contact:
     enable: true
-    content: My inbox is open if you're interested on contact me.
+    content: Hope you know that my inbox is always open, wheter if you have a question or just want say hi. I'll do my best to answer back on time!
     email: marattagian15@gmail.com
     btnName: Mail Me
   footer:
