@@ -78,14 +78,14 @@ params:
           url: 'https://fullstackopen.com/en'
         date: '2020'
         content: |-
-          In this course I learned the syntax of the language along with its philosophy. In addition, how packages and modules work. Without leaving aside the use of the great capacity of the Standard Library.
+          With Full stack open, I learned the basis of NodeJS and building REST API's with it, alongside express. I also learned things like CORS, server React builds, using MongoDB and a little bit of Typescript. Technologies where I would deepen later on my own.
       - title: 'Curso Profesional de Go'
         school:
           name: 'Codigofacilito'
           url: /certificado-go.pdf
         date: '2022'
         content: |-
-          With Full stack open, I learned the basis of NodeJS and building REST API's with it, alongside express. I also learned things like CORS, server React builds, using MongoDB and a little bit of Typescript. Technologies where I would deepen later on my own.
+          In this course I learned the syntax of the language along with its philosophy. In addition, how packages and modules work. Without leaving aside the use of the great capacity of the Standard Library.
   projects:
     enable: true
     items:
