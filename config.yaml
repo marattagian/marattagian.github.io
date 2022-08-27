@@ -25,7 +25,7 @@ params:
     button:
       enable: true
       name: 'Resume'
-      url: /CV-backend-MarattaGianni.pdf
+      url: /Resume-GianniMaratta-Backend.pdf
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -61,7 +61,7 @@ params:
       - job: "Node Backend Developer"
         company: "Alkemy Acceleration"
         companyUrl: "https://alkemy.org"
-        date: "July 2022 - present"
+        date: "July 2022 - August 2022"
         featuredLink:
           enable: true
           name: "View the project"
@@ -107,6 +107,24 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/marattagian/todo-app
+      - title: Node GraphQL API
+        content: A GraphQL API built with Node and Apollo Server
+        image: /images/projects/apollo-mongo.png
+        featured:
+          name: Repo
+          link: https://github.com/marattagian/apollo-mongo-node
+        links:
+          - icon: fab fa-github
+            url: https://github.com/marattagian/apollo-mongo-node
+      - title: Go Bookstore
+        content: A bookstore REST API built with Go, Gorilla Mux, Gorm and Postgres
+        image: /images/projects/go-bookstore.png
+        featured:
+          name: Repo
+          link: https://github.com/marattagian/go-bookstore
+        links:
+          - icon: fab fa-github
+            url: https://github.com/marattagian/go-bookstore
       - title: Quiz Game
         content: A simple CLI quiz game made with node
         image: /images/projects/gian-game.png
@@ -121,16 +139,7 @@ params:
         image: /images/projects/gin-gonic-service.png
         featured:
           name: Repo
-          link: https://github.com/marattagian/challenge-backend-node
-        links:
-          - icon: fab fa-github
-            url: https://github.com/marattagian/gin-service
-      - title: Node GraphQL API
-        content: A GraphQL API built with Node and Apollo Server
-        image: /images/projects/apollo-mongo.png
-        featured:
-          name: Repo
-          link: https://github.com/marattagian/apollo-mongo-node
+          link: https://github.com/marattagian/gin-service
         links:
           - icon: fab fa-github
             url: https://github.com/marattagian/gin-service
@@ -142,7 +151,7 @@ params:
         url: https://www.npmjs.com/package/gian-game
       - title: English C2
         content: EFSET Approval Certificate
-        url: /EFSET-Certificate-GianniMaratta.pdf
+        url: https://www.efset.org/cert/mvLs8N
   contact:
     enable: true
     content: Hope you know that my inbox is always open, wheter if you have a question or just want say hi. I'll do my best to answer back on time!
